@@ -5,8 +5,8 @@ duas instâncias (objetos), especificando o valor de min e max por nome.
 
 from televisao import Televisao
 
-tv1 = Televisao("dois", "dez")
-tv2 = Televisao("cinco", "vinte")
+tv1 = Televisao(min=2, max=10)
+tv2 = Televisao(min=5, max=20)
 
 print(f"Canal mínimo da primeira TV: {tv1.canal_min}\n"
       f"Canal máximo da primeira TV: {tv1.canal_max}\n")
